@@ -8,11 +8,12 @@ export default function RuncoverLayout({ children }: { children: React.ReactNode
           <Link href="/">Energy Transformation Project</Link>
           <Link href="/runcover/support">Support</Link>
           <Link href="/runcover/privacy">Privacy</Link>
+          <Link href="/runcover/consumer-health">Health data privacy</Link>
         </nav>
         {children}
         <footer className="mt-16 border-t border-white/10 pt-8 text-sm leading-7 text-slate-400">
           <p>Energy Transformation Project LLC</p>
-          <a className="text-sky-300 underline underline-offset-4" href="mailto:alex@energytproject.com">Contact Runcover support</a>
+          <a className="text-sky-300 underline underline-offset-4" href="mailto:admin@energytproject.com">Contact Runcover support</a>
         </footer>
       </div>
     </main>

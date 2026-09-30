@@ -318,6 +318,8 @@ export default function Home() {
             >
               Contact
             </a>
+            <a href="/runcover/privacy" className="text-white/60 transition hover:text-white">Runcover privacy</a>
+            <a href="/runcover/consumer-health" className="text-white/60 transition hover:text-white">Health data privacy</a>
             <span>© {new Date().getFullYear()} Energy Transformation Project</span>
           </div>
         </div>

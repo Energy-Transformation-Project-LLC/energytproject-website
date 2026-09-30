@@ -5,7 +5,7 @@ export const metadata: Metadata = {"title": "Runcover Support", "description": "
 const sections = [
   [
     "Contact Runcover",
-    "Email alex@energytproject.com for help with Runcover. Include your app version, what you were doing, what happened and approximately when it happened. Never send your password. Avoid sending Health records, a home address or precise routes unless they are needed to investigate a specific issue."
+    "Email admin@energytproject.com for help with Runcover. Include your app version, what you were doing, what happened and approximately when it happened. Never send your password. Avoid sending Health records, a home address or precise routes unless they are needed to investigate a specific issue."
   ],
   [
     "Recording and Apple Health",
@@ -42,7 +42,7 @@ export default function Page() {
     <article>
       <p className="text-sm font-semibold tracking-wide text-sky-300">RUNCOVER</p>
       <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Runcover Support</h1>
-      <p className="mt-4 text-sm text-slate-400">Updated September 23, 2026</p>
+      <p className="mt-4 text-sm text-slate-400">Updated September 30, 2026</p>
       <div className="mt-12 space-y-9">
         {sections.map(([heading, text]) => (
           <section key={heading}>
