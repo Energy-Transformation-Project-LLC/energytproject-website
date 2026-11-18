@@ -29,11 +29,11 @@ const sections = [
   ],
   [
     "Safety and fair play",
-    "Runcover is a fitness and game app, not medical advice or an emergency service. Choose an effort and route appropriate to your condition and surroundings; stop if you feel unwell. Do not trespass, ignore traffic rules or push through injury to earn points. Zone Wars battles and weapons are fictional. Supplies are game points and cannot be redeemed for cash. Use your own activities and home zone, and do not fabricate recordings or harass other runners. Use the in-app report and block controls for abusive content or contact support."
+    "Runcover is a fitness and game app, not medical advice or an emergency service. Choose an effort and route appropriate to your condition and surroundings; stop if you feel unwell. Do not trespass, ignore traffic rules or push through injury to earn points. Zone Wars battles and weapons are fictional. Supplies are game points and cannot be redeemed for cash. Use your own activities and home zone, and do not fabricate recordings or harass other runners. Use the Report control beside another player's name in the Land Grab or Reveal standings, or on a Land Grab player card. Runcover reviews these reports and can remove inappropriate names or restrict abusive accounts. You can also email admin@energytproject.com."
   ],
   [
     "Deleting your account",
-    "Open Profile and choose Delete my account. This is different from deleting one activity. Account deletion removes the account through the server workflow and attempts to clear local data owned by that account. Apple Health keeps its own workouts. Contact support if the app reports a cleanup problem."
+    "Open Profile and choose Delete my account. This is different from deleting one activity. Account deletion removes the account through the server workflow and attempts to clear local data owned by that account. Apple Health keeps its own workouts. If you used Sign in with Apple, follow the app's instructions to remove Runcover from Sign in with Apple after deleting your Runcover account. Contact support if the app reports a cleanup problem."
   ]
 ];
 
@@ -42,7 +42,7 @@ export default function Page() {
     <article>
       <p className="text-sm font-semibold tracking-wide text-sky-300">RUNCOVER</p>
       <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Runcover Support</h1>
-      <p className="mt-4 text-sm text-slate-400">Updated September 30, 2026</p>
+      <p className="mt-4 text-sm text-slate-400">Updated November 18, 2026</p>
       <div className="mt-12 space-y-9">
         {sections.map(([heading, text]) => (
           <section key={heading}>
